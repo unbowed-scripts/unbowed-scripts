@@ -14,7 +14,7 @@
 
 ### 01 / Hello user =]
 
-Welcome to my corner of GitHub — a place for Python scripts and experiments.
+Welcome to my corner of GitHub.
 
 ### 02 / Featured project
 

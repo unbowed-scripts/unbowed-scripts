@@ -5,9 +5,9 @@
 <p align="center">
   <a href="https://github.com/unbowed-scripts?tab=repositories">Projects</a>
   &nbsp; / &nbsp;
-  <a href="https://t.me/unbowed_scripts">Telegram</a>
+  <a href="https://t.me/byteix">Telegram</a>
   &nbsp; / &nbsp;
-  <a href="https://www.tiktok.com/@dedssec">TikTok</a>
+  Discord: <code>@byteixys</code>
 </p>
 
 <br>
@@ -26,7 +26,7 @@ A lightweight Python password-generation experiment that works without the `rand
 
 ### 03 / Find me elsewhere
 
-[Telegram ↗](https://t.me/unbowed_scripts) &nbsp; · &nbsp; [TikTok ↗](https://www.tiktok.com/@dedssec)
+[Telegram @byteix ↗](https://t.me/byteix) &nbsp; · &nbsp; Discord: **@byteixys**
 
 ---
 

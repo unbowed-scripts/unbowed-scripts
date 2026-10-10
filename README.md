@@ -19,6 +19,8 @@ Welcome to my corner of GitHub.
 ### 02 / Featured project
 
 **[Pin-generator ↗](https://github.com/unbowed-scripts/Pin-generator)**
+**[PythonTech ↗](https://github.com/unbowed-scripts/PytonTech)**
+
 
 A lightweight Python password-generation experiment that works without the `random` library.
 
@@ -26,7 +28,7 @@ A lightweight Python password-generation experiment that works without the `rand
 
 ### 03 / Find me elsewhere
 
-[Telegram @byteix ↗](https://t.me/byteix) &nbsp; · &nbsp; Discord: **@byteixys**
+[Telegram - ]() &nbsp; · &nbsp; Discord: **@byteixys**
 
 ---
 

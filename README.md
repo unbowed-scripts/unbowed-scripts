@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header.svg" width="100%" alt="UNBOWED — Python. Scripts. Experiments." />
+  <img src="./header.gif" width="100%" alt="UNBOWED — Python. Scripts. Experiments." />
 </p>
 
 <p align="center">

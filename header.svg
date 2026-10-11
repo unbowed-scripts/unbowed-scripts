@@ -1,12 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="UNBOWED — Python, scripts and experiments">
-<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1e3038" stroke-width="1"/></pattern><linearGradient id="fade"><stop stop-color="#75f5bd"/><stop offset="1" stop-color="#65cbe9"/></linearGradient></defs>
+<style>
+@keyframes breathe {0%,100%{stroke-opacity:.13}50%{stroke-opacity:.34}}
+@keyframes cursor {0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse {0%,100%{stroke-opacity:.45}50%{stroke-opacity:.9}}
+@keyframes flow {to{stroke-dashoffset:-1168}}
+.brackets{animation:breathe 4s ease-in-out infinite}.slash{animation:pulse 4s ease-in-out infinite}.cursor{animation:cursor 1s steps(1) infinite}.flow{stroke-dasharray:100 1068;animation:flow 4s linear infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1e3038" stroke-width="1"/></pattern><linearGradient id="fade"><stop stop-color="#75f5bd"/><stop offset="1" stop-color="#65cbe9"/></linearGradient></defs>
 <rect width="1280" height="420" rx="24" fill="#0c1218"/><rect x="720" width="560" height="420" fill="url(#grid)"/>
-<path d="M928 60 780 210l148 150M1060 60l148 150-148 150" fill="none" stroke="#75f5bd" stroke-opacity=".13" stroke-width="28"/>
-<path d="m1032 68-72 284" stroke="#75f5bd" stroke-opacity=".6" stroke-width="8"/>
+<path class="brackets" d="M928 60 780 210l148 150M1060 60l148 150-148 150" fill="none" stroke="#75f5bd" stroke-opacity=".13" stroke-width="28"/>
+<path class="slash" d="m1032 68-72 284" stroke="#75f5bd" stroke-opacity=".6" stroke-width="8"/>
 <rect x="56" y="53" width="28" height="4" rx="2" fill="#75f5bd"/>
 <text x="100" y="62" fill="#91a6b2" font-family="monospace" font-size="16" letter-spacing="3">UNBOWED-SCRIPTS / GITHUB</text>
 <text x="52" y="207" fill="#f0f6fc" font-family="DejaVu Sans,Arial,sans-serif" font-weight="bold" font-size="100" letter-spacing="-4">UNBOWED<tspan fill="#75f5bd">.</tspan></text>
 <text x="58" y="259" fill="#a9b9c5" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" letter-spacing="1">Python. Scripts. Experiments.</text>
-<text x="58" y="357" fill="#75f5bd" font-family="monospace" font-size="18">&gt; Hello user =]<tspan fill="#6b8292"> _</tspan></text>
+<text x="58" y="357" fill="#75f5bd" font-family="monospace" font-size="18">&gt; Hello user =]<tspan class="cursor" fill="#6b8292"> _</tspan></text>
 <path d="M56 395H1224" stroke="url(#fade)" stroke-width="2"/>
-</svg>
+<path class="flow" d="M56 395H1224" fill="none" stroke="#b1ffe0" stroke-width="3"/></svg>
